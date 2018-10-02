@@ -1,2 +1,2 @@
 # OpenAI-Gym
-Solutions to OpenAI's different environments
+My solutions to OpenAI's different environments
