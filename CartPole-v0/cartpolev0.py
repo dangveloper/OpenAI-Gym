@@ -62,7 +62,7 @@ def get_training_data(n_episodes = 500, threshold = 40, model = None):
             if model == None:
                 action = env.action_space.sample()
             else:
-    
+
                 action = model.predict_classes(observation.reshape(1,-1))[0][0]
                 
                 # To reduce the overfitting
